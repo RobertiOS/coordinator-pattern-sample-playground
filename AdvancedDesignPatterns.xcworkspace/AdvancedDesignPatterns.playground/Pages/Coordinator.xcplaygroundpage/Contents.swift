@@ -1,6 +1,4 @@
 /*:
- [Previous](@previous)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Next](@next)
- 
  # Coordinator
  - - - - - - - - - -
  ![Coordinator](Coordinator_Diagram.png)

@@ -28,6 +28,9 @@ extension NavigationRouter: Router {
         guard let routerRootController = routerRootController else {
             navigationController.popToRootViewController(animated: animated)
             return }
+        performOnDismissed(for: routerRootController)
+        navigationController.popToViewController(routerRootController, animated: animated)
+        
     }
     
     private func performOnDismissed(for viewController: UIViewController) {
