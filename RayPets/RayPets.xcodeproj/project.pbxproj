@@ -30,6 +30,7 @@
 		E17C8BC628C6340B006698A0 /* AppDelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C8BC528C6340B006698A0 /* AppDelegateRouter.swift */; };
 		E17C8BC828C634D3006698A0 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C8BC728C634D3006698A0 /* HomeCoordinator.swift */; };
 		E17C8BCA28C63C10006698A0 /* PetAppointmentBuilderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C8BC928C63C10006698A0 /* PetAppointmentBuilderCoordinator.swift */; };
+		E17C8BCC28C642FB006698A0 /* ModalNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C8BCB28C642FB006698A0 /* ModalNavigationRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E17C8BC528C6340B006698A0 /* AppDelegateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateRouter.swift; sourceTree = "<group>"; };
 		E17C8BC728C634D3006698A0 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		E17C8BC928C63C10006698A0 /* PetAppointmentBuilderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAppointmentBuilderCoordinator.swift; sourceTree = "<group>"; };
+		E17C8BCB28C642FB006698A0 /* ModalNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalNavigationRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				428EF7C7213471F100E953CF /* Router.swift */,
+				E17C8BCB28C642FB006698A0 /* ModalNavigationRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			files = (
 				428EF7AE21337BCB00E953CF /* PainLevel.swift in Sources */,
 				428EF7AC21337A3400E953CF /* PainLevelViewController.swift in Sources */,
+				E17C8BCC28C642FB006698A0 /* ModalNavigationRouter.swift in Sources */,
 				E17C8BC828C634D3006698A0 /* HomeCoordinator.swift in Sources */,
 				428EF7B52133806C00E953CF /* Coordinator.swift in Sources */,
 				E17C8BCA28C63C10006698A0 /* PetAppointmentBuilderCoordinator.swift in Sources */,
