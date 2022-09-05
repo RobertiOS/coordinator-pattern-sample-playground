@@ -27,6 +27,8 @@
 		42D47CC4212F06490057AC9B /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D47CC3212F06490057AC9B /* StoryboardInstantiable.swift */; };
 		42EA90E6212EF07300D01406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA90E5212EF07300D01406 /* AppDelegate.swift */; };
 		42EA90ED212EF07400D01406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EA90EC212EF07400D01406 /* Assets.xcassets */; };
+		E17C8BC628C6340B006698A0 /* AppDelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C8BC528C6340B006698A0 /* AppDelegateRouter.swift */; };
+		E17C8BC828C634D3006698A0 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C8BC728C634D3006698A0 /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		42EA90E5212EF07300D01406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42EA90EC212EF07400D01406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42EA90F1212EF07400D01406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17C8BC528C6340B006698A0 /* AppDelegateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateRouter.swift; sourceTree = "<group>"; };
+		E17C8BC728C634D3006698A0 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				428EF7B42133806C00E953CF /* Coordinator.swift */,
+				E17C8BC728C634D3006698A0 /* HomeCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				42EA90E5212EF07300D01406 /* AppDelegate.swift */,
+				E17C8BC528C6340B006698A0 /* AppDelegateRouter.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -349,11 +355,13 @@
 			files = (
 				428EF7AE21337BCB00E953CF /* PainLevel.swift in Sources */,
 				428EF7AC21337A3400E953CF /* PainLevelViewController.swift in Sources */,
+				E17C8BC828C634D3006698A0 /* HomeCoordinator.swift in Sources */,
 				428EF7B52133806C00E953CF /* Coordinator.swift in Sources */,
 				428EF7C8213471F100E953CF /* Router.swift in Sources */,
 				42CF673B2138646900279A2A /* FakingItViewController.swift in Sources */,
 				428EF7D1213474BA00E953CF /* HomeViewController.swift in Sources */,
 				42EA90E6212EF07300D01406 /* AppDelegate.swift in Sources */,
+				E17C8BC628C6340B006698A0 /* AppDelegateRouter.swift in Sources */,
 				428EF7B021337BD400E953CF /* VisitType.swift in Sources */,
 				42D47CB5212EFEC90057AC9B /* SelectPainLevelViewController.swift in Sources */,
 				428EF7E02135884000E953CF /* NoAppointmentRequiredViewController.swift in Sources */,
